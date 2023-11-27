@@ -24,7 +24,7 @@ def read_input(path):
 
 
 def calculate(b, x0, w_list):
-    """Calculation of the constant term."""
+    """Calculation of the sines terms."""
 
     output_z = ""
     c = 0
