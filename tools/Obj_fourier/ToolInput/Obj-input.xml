@@ -1,0 +1,12 @@
+<disciplines>
+  <y>
+    <output_y>cos(x)+cos(2x)+cos(3x)</output_y>
+  </y>
+  <z>
+    <output_z>sin(x)+sin(2x)+sin(3x)</output_z>
+  </z>
+  <C>
+    <Surface>60</Surface>
+    <Volume>60</Volume>
+  </C>
+</disciplines>

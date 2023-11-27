@@ -1,0 +1,6 @@
+<disciplines>
+  <y>
+    <output_y>cos(x)+cos(2x)+cos(3x)</output_y>
+    <c>5</c>
+  </y>
+</disciplines>

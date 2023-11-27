@@ -1,0 +1,6 @@
+<disciplines>
+  <z>
+    <output_z>sin(x)+sin(2x)+sin(3x)</output_z>
+    <c>5</c>
+  </z>
+</disciplines>
