@@ -24,4 +24,15 @@ Once all the tools have been integrated both in RCE and in the workflow file, cl
 
 Once this is done, it is just necessary to press play. It is important to remark that is necessary to have Python installed to execute the workflow. RCE will ask before execution for the location of a Python executable, which can be found in the folder where Python is installed.
 
-Regarding the examples given, the
+Regarding the two examples given, the first one contains an architecture with both a cosine and a sine term. In this architecture, it is indicated that the C discipline should only consider the data coming from the Y discipline. The second file contains the solution found during the optimization process, which allows to observe discipline repetition and activation, as well as conditional variables during the execution process.
+
+# How to observe the process and the results
+
+Architectural influences can easily be observed during the execution process. Discipline repetition and activation are easily observed in the RCE GUI. To observe data connection and conditional variables it is necessary to observe the modifications applied to the workflow XML file during the execution. This can be done in the workflow data browser, which can be activated in a similar manner as the Palette. 
+
+To obtain the output XML file, click on the output writer inside the workflow data browser. Then right click on the output XML file and click on export.
+
+# Optimization process
+
+Right now, the repository only contains the MDA file, so the analysis can be tested, but not the optimization. To perform the optimization, a tool integrating ADORE was used. In the future, an open-source file able to perform the optimization process might be added to the repository. In the meantime, some pieces of advice are given for the user in case it is wanted to implement the optimization. 
+
