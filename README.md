@@ -40,5 +40,5 @@ If it is achieved to be done correctly, the optimization problem could be solved
 
 # Brother project
 
-This problem has a brother problem base don the design of a multistage space launcher. Its repository can be found in https://github.com/raul7gs/Space_launcher_benchmark_problem
+This problem has a brother problem based on the design of a multistage space launcher. Its repository can be found in https://github.com/raul7gs/Space_launcher_benchmark_problem
 
