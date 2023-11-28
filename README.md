@@ -32,6 +32,8 @@ Architectural influences can easily be observed during the execution process. Di
 
 To obtain the output XML file, click on the output writer inside the workflow data browser. Then right click on the output XML file and click on export.
 
+PD: To try more architectures, just modifify the one of the XML workflow files. Enough information is given in the thesis to do so.
+
 # Optimization process
 
 Right now, the repository only contains the MDA file, so the analysis can be tested, but not the optimization. To perform the optimization, a tool integrating ADORE was used. In the future, an open-source file able to perform the optimization process might be added to the repository. In the meantime, some pieces of advice are given for the user in case it is wanted to implement the optimization. First, it is necessary to remove from all iterator blocks the line stating "RCE.close_all_outputs()", which allows to not end the process after only a full analysis is executed. Then, it is necessary to add an optimizer. There are two possibilities. The first recommended option is to use RCE default optimizer, being necessary to include all the design variables (including the architectural decisions) mentioned in the thesis. A second possible option would be to add an external architecture generator that is open source, as it might be that there are some of them available on the Internet.
@@ -41,4 +43,10 @@ If it is achieved to be done correctly, the optimization problem could be solved
 # Brother project
 
 This problem has a brother problem based on the design of a multistage space launcher. Its repository can be found in https://github.com/raul7gs/Space_launcher_benchmark_problem
+
+# Contact information
+
+In case the reader finds any error during the execution process, please report it on the email later attached. Also it is encouraged to contact the author in case any problem is found in the MDA implementation process (or even in a possible approach to implement the optimization process)
+
+Email: raulgarcia.alh@gmail.com 
 
