@@ -13,4 +13,11 @@ Before executing any architecture, it is necessary to integrate the tools in RCE
 6. Press next twice until you arrive to the Launch setting window. Here press on the Add button. In the Tool directory press again on the three dots and select the folder with the location of the tool (the Y discipline for example). Then input a version (for example 1.0) and click on "Create arbitrary directory". Press OK and next.
 7. In the next window, unclick the option merging the static input. Then again jump to the next window.
 8. Finally, click on execution command for windows. Here write python "name" where name is the python file name in the tool. For example, in the case of the Y discipline, the name is Y.py, so it is necessary to write python Y.py
-9. 
+
+The tool is already integrated in RCE. To integrate the tool in the workflow, first you need to delete its corresponding block in the RCE workflow, which is represented by a square with gears in the center. Then drag your tool from the palette tolbar on the right (if it does not appear, activate from window/show view). Finally, make the necessary connections. Connect the input filter with the tool (pressing on the connection button in the palette). Finally, connect the CPACs out folder from the tool with both files in the output filter
+
+<img width="356" alt="tutorialrce" src="https://github.com/raul7gs/Fourier-benchmark-problem/assets/116161286/cda1491b-c166-4442-8cf2-868c33fb5a8f">
+
+# How to execute the workflow
+
+Once all the tools have been integrated both in RCE and in the workflow file, click on the input 
