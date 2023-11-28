@@ -38,3 +38,7 @@ Right now, the repository only contains the MDA file, so the analysis can be tes
 
 If it is achieved to be done correctly, the optimization problem could be solved and a solution close to the one included in this repository should be obtained. It is warned to the user that the design space shape is really complex, which can cause great difficulties to the optimization algorithm to find the solution. An SBO algorithm was used in the case of the thesis, which has been found to work better for this specific problem with respect to other mixed-discrete algorithms, such as NSGA-II.
 
+# Brother project
+
+This problem has a brother problem base don the design of a multistage space launcher. Its repository can be found in https://github.com/raul7gs/Space_launcher_benchmark_problem
+
