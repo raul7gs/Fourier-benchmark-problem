@@ -20,4 +20,8 @@ The tool is already integrated in RCE. To integrate the tool in the workflow, fi
 
 # How to execute the workflow
 
-Once all the tools have been integrated both in RCE and in the workflow file, click on the input 
+Once all the tools have been integrated both in RCE and in the workflow file, click twice on the input provider (top left block). After that, click inside the properties window in the output file called XML and afterward on edit. Here select the one of the XML files from the XML folder (after clicking on the "Select from project" button).
+
+Once this is done, it is just necessary to press play. It is important to remark that is necessary to have Python installed to execute the workflow. RCE will ask before execution for the location of a Python executable, which can be found in the folder where Python is installed.
+
+Regarding the examples given, the
