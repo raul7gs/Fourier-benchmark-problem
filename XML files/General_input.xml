@@ -1,1 +1,15 @@
-<disciplines><y UID="y_1"><A>1.0</A><wa>1</wa></y><z UID="z_1"><B>1.0</B><wb>1</wb></z><x>0.3</x><Architecture><Method>Surface</Method><Input>y</Input></Architecture></disciplines>
+<disciplines>
+    <y UID="y_1">
+        <A>1.0</A>
+        <wa>1</wa>
+    </y>
+    <z UID="z_1">
+        <B>1.0</B>
+        <wb>1</wb>
+    </z>
+    <x>0.3</x>
+    <Architecture>
+        <Method>Surface</Method>
+        <Input>y</Input>
+    </Architecture>
+</disciplines>
