@@ -1,0 +1,26 @@
+<disciplines>
+    <y UID="y_1">
+        <A>1.0</A>
+        <wa>1</wa>
+    <output_y>1.0*cos(6.283185307179586*x)</output_y>
+      <c>-0.30901699437494734</c>
+   </y>
+    <z UID="z_1">
+        <B>1.0</B>
+        <wb>1</wb>
+    <output_z>1.0*sin(6.283185307179586*x)</output_z>
+      <c>0.9510565162951536</c>
+   </z>
+    <x>0.3</x>
+    <Architecture>
+        <Method>Surface</Method>
+        <Input>y</Input>
+    </Architecture>
+<C>
+		    <Surface>0</Surface>
+		    <Volume>0</Volume>
+	  </C>
+<Objective>
+		    <error>11.829428104187885</error>
+	  </Objective>
+</disciplines>
