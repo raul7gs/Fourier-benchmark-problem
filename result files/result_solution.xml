@@ -2,25 +2,25 @@
     <z UID="z_1">
         <B>0.6366</B>
         <wb>1</wb>
-    <output_z>0.6366*sin(6.283185307179586*x)</output_z>
-      <c>0.6054425782734949</c>
-   </z>
+        <output_z>0.6366*sin(6.283185307179586*x)</output_z>
+        <c>0.6054425782734949</c>
+    </z>
     <z UID="z_2">
         <B>-0.3183</B>
         <wb>2</wb>
-    <output_z>-0.3183*sin(12.566370614359172*x)</output_z>
-      <c>0.18709204580469418</c>
-   </z>
+        <output_z>-0.3183*sin(12.566370614359172*x)</output_z>
+        <c>0.18709204580469418</c>
+    </z>
     <x>0.3</x>
     <Architecture>
         <Method>Volume</Method>
         <Input>z</Input>
     </Architecture>
-<C>
-		    <Surface>4.763893537141672</Surface>
-		    <Volume>0.521294751004525</Volume>
-	  </C>
-<Objective>
-		    <error>1.0056661789144115</error>
-	  </Objective>
+    <C>
+        <Surface>4.763893537141672</Surface>
+        <Volume>0.521294751004525</Volume>
+    </C>
+    <Objective>
+        <error>1.0056661789144115</error>
+    </Objective>
 </disciplines>
